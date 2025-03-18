@@ -4,7 +4,7 @@ function Register() {
   return (
     <div className="container-fluid">
       <div className="d-flex justify-content-center align-items-center vh-100">
-        <form className="col-lg-3">
+        <form className="col-lg-3 p-3 border border-1 rounded-3">
           <h1 className="text-left">Registre-se</h1>
           <p className="text-left">
             Preencha o formulário abaixo para criar uma conta.
@@ -38,7 +38,7 @@ function Register() {
           </div>
 
           <button type="submit" className="btn btn-primary w-50">
-            Cadastrar-se
+            Cadastrar
           </button>
           <p className="mt-3">
             Já tem uma conta? <Link to="/login">Faça login</Link>
